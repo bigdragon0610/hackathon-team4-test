@@ -1,0 +1,76 @@
+html {
+    font-size: 16px;
+    height: 100%;
+    margin-top: 0 !important;
+}
+
+body {
+    display:block;
+    padding-top: 85px;
+    height: 100%;
+    color: #333;
+    background: #fff;
+    font-family: -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", HelveticaNeue, "游ゴシック体", YuGothic, "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック", "Yu Gothic", "Sogoe UI", Verdana, "メイリオ", Meiryo, sans-serif;
+    -webkit-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+}
+
+div {
+    display: block;
+}
+
+header {
+    display: block;
+    width: 100%;
+    z-index: 10;
+    background: #fff; 
+    position: fixed;
+    top: 0;
+}
+
+.headerInner {
+    height: 70px;
+    padding: 20px 0;
+    text-align: center;
+    position: relative;
+    height: 85px;
+    padding: 20px 0 18px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: underline;
+    color: #003b93;
+    -webkit-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+    cursor: pointer;
+}
+
+.headerInner .headerLogo img {
+    width: 100px;
+    vertical-align: top;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border: 0;
+}
+
+.pankuzu {
+    padding: 4px 0 6px;
+    background: #f3f3f3;
+    color: #333;
+}
+
+.pankuzu .breadcrumbs {
+    padding: 0 20px;
+    font-size: 12px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0px auto;
+    max-width: 1200px;
+}
